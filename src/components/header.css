@@ -1,0 +1,11 @@
+.header-hidden {
+    display: none !important;
+  }
+  
+  .header-hidden > .ant-collapse-content-box {
+    padding: 20px !important;
+  }
+
+  .collapsible-btn {
+    width: min-content;
+  }

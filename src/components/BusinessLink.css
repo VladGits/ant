@@ -1,0 +1,30 @@
+.business-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.business-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.business-link__icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.business-link__icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.business-link__text {
+  font-size: 14px;
+  color: #333;
+} 
