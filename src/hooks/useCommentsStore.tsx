@@ -6,6 +6,7 @@ export interface ICommentsStore {
   size: number
   setSort: (sort: ICommentsStore['sort']) => void
   setPage: (page: number) => void
+  setSize: (size: number) => void
 }
 
 export const useCommentsStore = create<ICommentsStore>()((set) => ({
@@ -14,4 +15,5 @@ export const useCommentsStore = create<ICommentsStore>()((set) => ({
   size: 4,
   setSort: (sort) => set({ sort }),
   setPage: (page) => set({ page }),
+  setSize: (size) => set({ size }),
 }))
