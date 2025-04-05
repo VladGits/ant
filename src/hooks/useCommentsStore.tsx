@@ -12,7 +12,7 @@ export interface ICommentsStore {
 export const useCommentsStore = create<ICommentsStore>()((set) => ({
   sort: 'asc',
   page: 1,
-  size: 4,
+  size: 3,
   setSort: (sort) => set({ sort }),
   setPage: (page) => set({ page }),
   setSize: (size) => set({ size }),
